@@ -1,0 +1,8 @@
+<template>
+    <require from="libvantage/vantage.css"></require>
+	<header>Timeline</header>
+	<center><div style="font-size:14px; color:white; background-color:red; margin-top:-24px; min-height:20px"><b>Only works on current act save!</b></div></center>
+	<center><label style="font-size:14px; color:gray; margin-top:40px;">This editor only allows you to progress your timeline. If you select 'Final Moments' all acts will be unlocked.</label></center>
+	<card label="Current Act:"><v-selection onchange="Update_Image()" style="min-width:91%; padding-left:2%;" value.bind="Current_Timeline" options.bind="[{value: '1', label: 'Riverport University Experiment'}, {value: '2', label: 'Campus Escape'}, {value: '3', label: 'Library Chase'}, {value: '4', label: 'PR'}, {value: '5', label: 'Industrial Area'}, {value: '6', label: 'Ground Zero'}, {value: '7', label: 'Bradbury Swimming Pool'}, {value: '8', label: 'Business'}, {value: '9', label: 'Research Facility'}, {value: '10', label: 'Monarch Gala'}, {value: '11', label: 'Hatch'}, {value: '12', label: 'Port Donnelly Bridge'}, {value: '13', label: 'Preparing The Time Machine'}, {value: '14', label: 'Swimming Pool 2010'}, {value: '15', label: 'Wills Workshop 2010'}, {value: '16', label: 'Surrender'}, {value: '17', label: 'Monarch HQ'}, {value: '18', label: 'Return To The University'}, {value: '19', label: 'Final Moments'}]"></v-selection></card>
+	<center><img style="max-height:310px; margin-top:40px;" src.bind="Current_Timeline_Image_URL"></center>
+</template>

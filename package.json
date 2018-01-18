@@ -1,0 +1,59 @@
+{
+  "name": "editor-quantum-break",
+  "author": "XB36Hazard",
+  "description": "Quantum Break Save Editor",
+  "version": "0.1.0",
+  "vantage": {
+    "game": "Quantum Break",
+    "scid": "23630687-fad2-4cc8-8cfc-6f213b808b4f",
+    "thumbnailUrl": "http://store-images.s-microsoft.com/image/apps.58987.13510798886714035.b2865d36-6481-42f1-b535-9300f0971c58.be79ec74-9c21-4c54-804b-392877794836?w=128&h=128",
+    "name": "Timeline Editor"
+  },
+  "repository": {
+    "type": "???",
+    "url": "???"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "aurelia-animator-css": "^1.0.4",
+    "aurelia-bootstrapper": "^2.1.1",
+    "big-integer": "^1.6.26",
+    "bluebird": "^3.5.1",
+    "crc-32": "^1.1.1",
+    "libvantage": "^0.2.0",
+    "requirejs": "^2.3.5",
+    "text": "github:requirejs/text#latest",
+    "tslib": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.52",
+    "aurelia-cli": "^0.32.0",
+    "aurelia-testing": "^1.0.0-beta.4.0.0",
+    "aurelia-tools": "^1.0.0",
+    "browser-sync": "^2.23.2",
+    "connect-history-api-fallback": "^1.5.0",
+    "debounce": "^1.1.0",
+    "event-stream": "^3.3.3",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-changed-in-place": "^2.3.0",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-notify": "^3.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.3",
+    "gulp-tslint": "^5.0.0",
+    "gulp-typescript": "^3.2.3",
+    "gulp-watch": "^4.3.11",
+    "html-minifier": "^3.5.8",
+    "minimatch": "^3.0.4",
+    "through2": "^2.0.3",
+    "tslint": "^3.11.0",
+    "typescript": "^2.6",
+    "uglify-js": "^3.3.4",
+    "vinyl-fs": "^2.4.3"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/aurelia build --env prod",
+    "watch": "./node_modules/.bin/aurelia run --watch"
+  }
+}
