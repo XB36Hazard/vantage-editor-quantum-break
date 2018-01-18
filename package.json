@@ -10,8 +10,8 @@
     "name": "Timeline Editor"
   },
   "repository": {
-    "type": "???",
-    "url": "???"
+    "type": "github",
+    "url": "https://github.com/XB36Hazard/vantage-editor-quantum-break"
   },
   "license": "GPL-3.0",
   "dependencies": {
