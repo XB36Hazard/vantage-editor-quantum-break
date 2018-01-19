@@ -5,7 +5,7 @@ import { observable } from 'aurelia-framework';
 export class Editor implements SaveEditor 
 {
     private QBS: Quantum_Break_Save = null;
-    private Current_Timeline_Image_URL: string = 'http://x3t-infinity.com/QB/1.png';
+    private Current_Timeline_Image_URL: string = 'src\\images\\1.png';
 
     private Current_Timeline_2 = 1;
     @observable private Current_Timeline = 1;
@@ -35,7 +35,7 @@ export class Editor implements SaveEditor
                 {
                     this.QBS.Time_Line = this.Current_Timeline;
                     this.Current_Timeline_2 = this.Current_Timeline;
-                    this.Current_Timeline_Image_URL = "http://x3t-infinity.com/QB/" + this.Current_Timeline + ".png";
+                    this.Current_Timeline_Image_URL = "src\\images\\" + this.Current_Timeline + ".png";
                 }
             }
         }
