@@ -2,7 +2,7 @@
   "name": "editor-quantum-break",
   "author": "XB36Hazard",
   "description": "Quantum Break Save Editor",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "vantage": {
     "game": "Quantum Break",
     "scid": "23630687-fad2-4cc8-8cfc-6f213b808b4f",
