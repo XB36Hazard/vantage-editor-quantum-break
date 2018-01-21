@@ -7,7 +7,9 @@
     "game": "Quantum Break",
     "scid": "23630687-fad2-4cc8-8cfc-6f213b808b4f",
     "thumbnailUrl": "http://store-images.s-microsoft.com/image/apps.58987.13510798886714035.b2865d36-6481-42f1-b535-9300f0971c58.be79ec74-9c21-4c54-804b-392877794836?w=128&h=128",
-    "name": "Timeline Editor"
+    "name": "Timeline Editor",
+    "containerFilter": "savegames",
+    "fileFilter": "/^slot_\\d+$/"
   },
   "repository": {
     "type": "github",
